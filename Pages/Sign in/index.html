@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../Assets/iconinstagram (1).png" type="image/x-icon">
+    <title>Entrar - Instagram</title>
+</head>
+<body>
+    <div class="contaneir-principal">
+        <main>
+            <form>
+                <div class="titulo">
+                    <img src="../../Assets/instagram.png" alt="instagram">
+                </div>
+                <div class="input-block" id="input-user">
+                    <label for="user" id="label1">Telefone, nome de usuário ou email</label>
+                    <input type="text" name="user" id="user" maxlength="255" placeholder="Telefone, nome de usuário ou email" onkeydown="sub()" onkeyup="regress()" onclick="border()">
+                </div>
+                <div class="input-block" id="input-password">
+                    <label for="password" id="label2">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Senha" maxlength="200" autocomplete="current-password" onkeydown="sub2()" onkeyup="regress2()" onclick="border2()">
+                    <span id="span-pass1" onclick="ver()">Mostrar</span>
+                    <span id="span-pass2" onclick="esconder()">Ocultar</span>
+                </div>
+                <div class="btn-entrar">
+                    <button type="submit" id="btn">
+                        Entrar
+                    </button>
+                </div>
+                <div class="or">
+                    <hr>
+                    <span>ou</span>
+                    <hr>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/">
+                        <img src="../../Assets/facebook.png" alt="logo facebook">
+                        <span>Entrar com o Facebook</span>
+                    </a>
+                </div>
+                <div class="forgot-password">
+                    <a href="../Forgot Password/index.html">Esqueceu a senha?</a>
+                </div>
+            </form>
+            <div class="sign-up">
+                <p>Não tem uma conta?</p>
+                <a href="../Sign up/index.html">Cadastre-se</a>
+            </div>
+            <div class="aplication">
+                <p>Obtenha o aplicativo.</p>
+                <div class="store">
+                    <div class="app-store">
+                        <img src="../../Assets/appstore.png" alt="app-store">
+                    </div>
+                    <div class="google-play">
+                        <img src="../../Assets/googleplay.png" alt="google-play">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <div class="link-1">
+                    <a href="#">Meta</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Carreiras</a>
+                    <a href="#">Ajuda</a>
+                    <a href="#">API</a>
+                    <a href="#">Privacidade</a>
+                    <a href="#">Termos</a>
+                    <a href="#">Principais contas</a>
+                    <a href="#">Hashtags</a>
+                    <a href="#">Localizações</a>
+                    <a href="#">Instagram Lite</a>
+                </div>
+                <div class="link-2">
+                    <a href="#">Português (Brasil)</a>
+                    <a href="#">&copy; 2022 Instagram from Meta</a>
+                </div>
+            </nav>
+        </footer>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

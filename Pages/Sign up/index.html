@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../Assets/iconinstagram (1).png" type="image/x-icon">
+    <title>Cadastrar - Instagram</title>
+</head>
+<body>
+    <div class="contaneir-principal">
+        <main>
+            <form>
+                <div class="titulo">
+                    <img src="../../Assets/instagram.png" alt="Instagram">
+                </div>
+                <div class="subtitulo">
+                    <h2>
+                        Cadastre-se para ver fotos e <br> vídeos dos seus amigos.
+                    </h2>
+                </div>
+                <div class="btn-facebook">
+                    <button type="button">
+                        <img src="../../Assets/Novo Projeto (1).png" alt="facebook">
+                        <span>Entrar com o Facebook</span>
+                    </button>
+                </div>
+
+                <div class="or">
+                    <hr>
+                    <span>ou</span>
+                    <hr>
+                </div>
+
+                <div class="input-block">
+                    <label for="num-email" id="label1">Número do celular ou email</label>
+                    <input type="text" name="num-email" id="num-email" placeholder="Número do celular ou email" maxlength="255" onkeydown="press()" onkeyup="depress()">
+                </div>
+                <div class="input-block">
+                    <label for="nome" id="label2">Nome completo</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome completo" maxlength="255" onkeydown="press2()" onkeyup="depress2()">
+                </div>
+                <div class="input-block">
+                    <label for="user" id="label3">Nome de usuário</label>
+                    <input type="text" name="user" id="user" placeholder="Nome de usuário" maxlength="200" onkeydown="press3()" onkeyup="depress3()">
+                </div>
+                <div class="input-block">
+                    <label for="password" id="label4">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Senha" maxlength="200" onkeydown="press4()" onkeyup="depress4()">
+                    <span id="span-pass1" onclick="ver()">Mostrar</span>
+                    <span id="span-pass2" onclick="esconder()">Ocultar</span>
+                </div>
+
+                <div class="btn-cadastrar">
+                    <button type="button">Cadastre-se</button>
+                </div>
+
+                <div class="termos">
+                    <p>
+                        Ao se cadastrar, você concorda com nossos <br> 
+                        Termos, Política de Dados e Política de Cookies.
+                    </p>
+                </div>
+            </form>
+
+            <div class="connecting">
+                <p>Tem uma conta?</p>
+                <a href="../Sign in/index.html">Conecte-se</a>
+            </div>
+
+            <div class="aplication">
+                <p>Obtenha o aplicativo</p>
+                <div class="btn-down">
+                    <div class="btn-app">
+                        <img src="../../Assets/appstore.png" alt="app store">
+                    </div>
+                    <div class="btn-google">
+                        <img src="../../Assets/googleplay.png" alt="google play">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <div class="link-1">
+                    <a href="#">Meta</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Carreiras</a>
+                    <a href="#">Ajuda</a>
+                    <a href="#">API</a>
+                    <a href="#">Privacidade</a>
+                    <a href="#">Termos</a>
+                    <a href="#">Principais contas</a>
+                    <a href="#">Hashtags</a>
+                    <a href="#">Localizações</a>
+                    <a href="#">Instagram Lite</a>
+                </div>
+                <div class="link-2">
+                    <a href="#">Português (Brasil)</a>
+                    <a href="#">&copy; 2022 Instagram from Meta</a>
+                </div>
+            </nav>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
